@@ -2,7 +2,7 @@
 
 ## 📄 Documentation Complète
 **Le dossier technique complet, incluant la page de garde officielle et la table des matières, est disponible au format PDF :**
-
+**[Télécharger le Dossier Technique PDF](./Lab_évolutif_CHEBEL.pdf)**
 ---
 
 ## 1. Présentation du Projet
