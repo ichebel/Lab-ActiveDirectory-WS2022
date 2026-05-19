@@ -20,8 +20,7 @@ L'objectif de ce projet personnel était de concevoir de bout en bout une archit
 L'originalité de ce lab repose sur la configuration réseau hybride permettant l'isolation du domaine tout en conservant un accès internet contrôlé via **NetNat**.
 
 ### Schéma Logique du Réseau
-*(Pour afficher ton image ici, dépose ton schéma réseau dans ton dépôt GitHub et remplace "chemin/vers/ton/image.png" ci-dessous)*
-![Schéma Réseau de l'infrastructure](chemin/vers/ton/image.png)
+![Schéma Réseau de l'infrastructure](Schéma_Lab.png)
 
 * **Domaine DNS :** `ecole.com`
 * **Réseau Interne (Privé) :** `192.168.1.0/24`
@@ -50,7 +49,7 @@ L'annuaire Active Directory a été durci par le déploiement d'Objets de Strat�
 
 ## 🛠️ Roadmap (Évolutions planifiées)
 Le lab a été pensé dès sa conception pour évoluer vers une infrastructure de plus en plus mature et hautement sécurisée :
-- [ ] **Gestion Centralisée des Mises à Jour (WSUS)** : Déploiement du rôle et liaison d'une stratégie `GPO_Ordinateurs`.
-- [ ] **Services de fichiers et partages réseaux** : Gestion des droits NTFS et partages SMB.
-- [ ] **Sécurité Durcie (AppLocker)** : Contrôle de l'exécution des applications.
-- [ ] **Supervision & Alerting** : Script PowerShell de "Health Check" quotidien avec envoi de rapports par email.
+-  **Gestion Centralisée des Mises à Jour (WSUS)** : Déploiement du rôle et liaison d'une stratégie `GPO_Ordinateurs`.
+-  **Services de fichiers et partages réseaux** : Gestion des droits NTFS et partages SMB.
+-  **Sécurité Durcie (AppLocker)** : Contrôle de l'exécution des applications.
+-  **Supervision & Alerting** : Script PowerShell de "Health Check" quotidien avec envoi de rapports par email.
